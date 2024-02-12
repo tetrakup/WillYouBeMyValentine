@@ -47,8 +47,8 @@ class _secondScreenState extends State<nfiveScreen> {
                         backgroundColor: MaterialStateProperty.all<Color>(
                             Colors.pink.shade200)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed(""),
-                    child: Text("SON",
+                        Navigator.of(context).pushReplacementNamed("/nnnnfourthy"),
+                    child: Text("..",
                         style: GoogleFonts.petitFormalScript(
                             color: Colors.black87)),
                   ),

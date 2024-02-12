@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class nfourthyScreen extends StatefulWidget {
-  const nfourthyScreen({Key? key}) : super(key: key);
+class nnfourthyScreen extends StatefulWidget {
+  const nnfourthyScreen({Key? key}) : super(key: key);
 
   @override
-  State<nfourthyScreen> createState() => _secondScreenState();
+  State<nnfourthyScreen> createState() => _secondScreenState();
 }
 
-class _secondScreenState extends State<nfourthyScreen> {
+class _secondScreenState extends State<nnfourthyScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -25,11 +25,11 @@ class _secondScreenState extends State<nfourthyScreen> {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Image.network(
-                  "https://i.giphy.com/GEVIk0UNK5TPO.webp",
+                  "https://64.media.tumblr.com/a5a2ad82857f93a31faad11070924538/tumblr_mq1mewH2rb1syvpb8o1_500.gif",
                 ),
               ),
               Text(
-                "İŞTE ŞİMDİ DELİRMEYE BAŞLIYORUM",
+                "Bunu yapmak istemiyorum",
                 style: GoogleFonts.petitFormalScript(
                   fontSize: 18,
                   color: Colors.pink,
@@ -59,8 +59,8 @@ class _secondScreenState extends State<nfourthyScreen> {
                         backgroundColor:
                             MaterialStateProperty.all<Color>(Colors.black)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("/nnfourthy"),//nfive
-                    child: Text("Neler yapabildiğini göster bana hDLŞFKDFŞLG",
+                        Navigator.of(context).pushReplacementNamed("/nnnfourthy"),//nfive
+                    child: Text("HADİ SDFLKSDLFKLG",
                         style: GoogleFonts.cinzel(color: Colors.redAccent)),
                   ),
                 ],

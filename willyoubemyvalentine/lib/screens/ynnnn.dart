@@ -25,7 +25,8 @@ class _secondScreenState extends State<ynnnnScreen> {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Image.network(
-                  "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHFod3M5and1anNxdHhpY3cyNWc2bDN3bTZqMThjNWFwaWIxdmg3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KPse2Y0OPBbxe/giphy.gif",
+                  //"https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHFod3M5and1anNxdHhpY3cyNWc2bDN3bTZqMThjNWFwaWIxdmg3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KPse2Y0OPBbxe/giphy.gif",
+                  "https://64.media.tumblr.com/4550ccb29356247be84a8805481be5e8/tumblr_mvq8xgegOI1t02bqio1_500.gif",
                 ),
               ),
               Text(

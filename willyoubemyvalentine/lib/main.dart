@@ -3,6 +3,9 @@ import 'package:willyoubemyvalentine/screens/home.dart';
 
 import 'screens/nfive.dart';
 import 'screens/nfourthy.dart';
+import 'screens/nnfourthy.dart';
+import 'screens/nnnfourthy.dart';
+import 'screens/nnnnfourthy.dart';
 import 'screens/noOneScreen.dart';
 import 'screens/nsecond.dart';
 import 'screens/nthırd.dart';
@@ -45,6 +48,9 @@ class MyApp extends StatelessWidget {
       '/nthird' :(context) => const nthirdScreen(),
       '/yfourthy' :(context) => const yfourthyScreen(),
       '/nfourthy' :(context) => const nfourthyScreen(),
+      '/nnfourthy' :(context) => const nnfourthyScreen(),
+      '/nnnfourthy' :(context) => const nnnfourthyScreen(),
+      '/nnnnfourthy' :(context) => const nnnnfourthyScreen(),
       '/yfive' :(context) => const yfiveScreen(),
       '/nfive' :(context) => const nfiveScreen(), 
       '/yy' :(context) => const yyScreen(),

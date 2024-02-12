@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class nfourthyScreen extends StatefulWidget {
-  const nfourthyScreen({Key? key}) : super(key: key);
+class nnnfourthyScreen extends StatefulWidget {
+  const nnnfourthyScreen({Key? key}) : super(key: key);
 
   @override
-  State<nfourthyScreen> createState() => _secondScreenState();
+  State<nnnfourthyScreen> createState() => _secondScreenState();
 }
 
-class _secondScreenState extends State<nfourthyScreen> {
+class _secondScreenState extends State<nnnfourthyScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -25,11 +25,11 @@ class _secondScreenState extends State<nfourthyScreen> {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Image.network(
-                  "https://i.giphy.com/GEVIk0UNK5TPO.webp",
+                  "https://24.media.tumblr.com/tumblr_m7bznp54D61ry0ylso1_500.gif",
                 ),
               ),
               Text(
-                "İŞTE ŞİMDİ DELİRMEYE BAŞLIYORUM",
+                "üzgünüm..",
                 style: GoogleFonts.petitFormalScript(
                   fontSize: 18,
                   color: Colors.pink,
@@ -48,21 +48,21 @@ class _secondScreenState extends State<nfourthyScreen> {
                             Colors.pink.shade200)),
                     onPressed: () =>
                         Navigator.of(context).pushReplacementNamed("/yfive"),
-                    child: Text("pekala bi şans",
+                    child: Text("..",
                         style: GoogleFonts.petitFormalScript(
                             color: Colors.black87)),
                   ),
-                  SizedBox(
+                  /*SizedBox(
                       width: 8), // Araya boşluk eklemek için SizedBox kullandık
                   ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
                             MaterialStateProperty.all<Color>(Colors.black)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("/nnfourthy"),//nfive
-                    child: Text("Neler yapabildiğini göster bana hDLŞFKDFŞLG",
+                        Navigator.of(context).pushReplacementNamed("/nnnfourthy"),//nfive
+                    child: Text("HADİ SDFLKSDLFKLG",
                         style: GoogleFonts.cinzel(color: Colors.redAccent)),
-                  ),
+                  ),*/
                 ],
               ),
             ],

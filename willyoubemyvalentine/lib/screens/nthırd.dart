@@ -47,8 +47,8 @@ class _secondScreenState extends State<nthirdScreen> {
                         backgroundColor: MaterialStateProperty.all<Color>(
                             Colors.pink.shade200)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("/nfourthy"),
-                    child: Text("Pek sanmıyorum CeyCey..",
+                        Navigator.of(context).pushReplacementNamed("/yfourthy"),
+                    child: Text("Ah pekala..",
                         style: GoogleFonts.petitFormalScript(
                             color: Colors.black87)),
                   ),
@@ -59,8 +59,8 @@ class _secondScreenState extends State<nthirdScreen> {
                         backgroundColor:
                             MaterialStateProperty.all<Color>(Colors.black)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("/yfourthy"),
-                    child: Text("Ah pekala..",
+                        Navigator.of(context).pushReplacementNamed("/nfourthy"),
+                    child: Text("Pek sanmıyorum CeyCey..",
                         style: GoogleFonts.cinzel(color: Colors.redAccent)),
                   ),
                 ],

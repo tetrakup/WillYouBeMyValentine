@@ -25,11 +25,12 @@ class _secondScreenState extends State<yfiveScreen> {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Image.network(
-                  "https://i.giphy.com/BTV1vUcOWht2U.webp",
+                  //"https://i.pinimg.com/originals/01/79/06/01790608147d6072dac9440e88aa4637.gif",
+                  "https://64.media.tumblr.com/1c10fd3a4f19da4e0313dcd9368c67d7/tumblr_mpmpp1qsnA1qbvovho1_500.gif",
                 ),
               ),
               Text(
-                "ÜZGÜNÜM İSOA BAŞKA BİR HAYATTA BENİM OLACAKSIN",
+                "Demek fikrini değiştirdin..",
                 style: GoogleFonts.petitFormalScript(
                   fontSize: 18,
                   color: Colors.pink,
@@ -47,8 +48,8 @@ class _secondScreenState extends State<yfiveScreen> {
                         backgroundColor: MaterialStateProperty.all<Color>(
                             Colors.pink.shade200)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed(""),
-                    child: Text("SON",
+                        Navigator.of(context).pushReplacementNamed("yenisayfa"),
+                    child: Text("evet..",
                         style: GoogleFonts.petitFormalScript(
                             color: Colors.black87)),
                   ),
@@ -59,8 +60,8 @@ class _secondScreenState extends State<yfiveScreen> {
                         backgroundColor:
                             MaterialStateProperty.all<Color>(Colors.black)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed(""),
-                    child: Text("SON",
+                        Navigator.of(context).pushReplacementNamed("yenisayfa"),
+                    child: Text("hayır",
                         style: GoogleFonts.cinzel(color: Colors.redAccent)),
                   ),
                 ],
