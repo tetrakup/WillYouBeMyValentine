@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
-
+//BU SAYFA SİLİNEBİLİT
 class yesOneScreen extends StatefulWidget {
   const yesOneScreen({Key? key}) : super(key: key);
 

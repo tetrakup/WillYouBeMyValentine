@@ -47,7 +47,7 @@ class _secondScreenState extends State<secondScreen> {
                         backgroundColor: MaterialStateProperty.all<Color>(
                             Colors.pink.shade200)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("/yesone"),
+                        Navigator.of(context).pushReplacementNamed("/yy"),
                     child: Text("Evet..",
                         style: GoogleFonts.petitFormalScript(
                             color: Colors.black87)),

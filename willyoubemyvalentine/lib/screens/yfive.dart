@@ -48,7 +48,7 @@ class _secondScreenState extends State<yfiveScreen> {
                         backgroundColor: MaterialStateProperty.all<Color>(
                             Colors.pink.shade200)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("yenisayfa"),
+                        Navigator.of(context).pushReplacementNamed("/yn"),
                     child: Text("evet..",
                         style: GoogleFonts.petitFormalScript(
                             color: Colors.black87)),
@@ -60,7 +60,7 @@ class _secondScreenState extends State<yfiveScreen> {
                         backgroundColor:
                             MaterialStateProperty.all<Color>(Colors.black)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("yenisayfa"),
+                        Navigator.of(context).pushReplacementNamed("/yn"),
                     child: Text("hayır",
                         style: GoogleFonts.cinzel(color: Colors.redAccent)),
                   ),

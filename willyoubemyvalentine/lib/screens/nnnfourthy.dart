@@ -25,7 +25,7 @@ class _secondScreenState extends State<nnnfourthyScreen> {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Image.network(
-                  "https://24.media.tumblr.com/tumblr_m7bznp54D61ry0ylso1_500.gif",
+                  "https://i.giphy.com/uoDs7cl1UDQEo.webp",
                 ),
               ),
               Text(
@@ -47,7 +47,7 @@ class _secondScreenState extends State<nnnfourthyScreen> {
                         backgroundColor: MaterialStateProperty.all<Color>(
                             Colors.pink.shade200)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("/yfive"),
+                        Navigator.of(context).pushReplacementNamed("/nnnnfourthy"),
                     child: Text("..",
                         style: GoogleFonts.petitFormalScript(
                             color: Colors.black87)),

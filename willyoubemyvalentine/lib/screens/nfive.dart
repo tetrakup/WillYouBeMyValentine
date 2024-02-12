@@ -30,9 +30,9 @@ class _secondScreenState extends State<nfiveScreen> {
               ),
               Text(
                 "ÜZGÜNÜM İSOA BAŞKA BİR HAYATTA BENİM OLACAKSIN",
-                style: GoogleFonts.petitFormalScript(
+                style: GoogleFonts.dangrek(
                   fontSize: 18,
-                  color: Colors.pink,
+                  color: Colors.red.shade600,
                   fontStyle: FontStyle.italic,
                   fontWeight: FontWeight.bold,
                   decoration: TextDecoration.none,
@@ -41,19 +41,7 @@ class _secondScreenState extends State<nfiveScreen> {
               Gap(15),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  ElevatedButton(
-                    style: ButtonStyle(
-                        backgroundColor: MaterialStateProperty.all<Color>(
-                            Colors.pink.shade200)),
-                    onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("/nnnnfourthy"),
-                    child: Text("..",
-                        style: GoogleFonts.petitFormalScript(
-                            color: Colors.black87)),
-                  ),
-                  SizedBox(
-                      width: 8), // Araya boşluk eklemek için SizedBox kullandık
+                children: [// Araya boşluk eklemek için SizedBox kullandık
                   ElevatedButton(
                     style: ButtonStyle(
                         backgroundColor:
