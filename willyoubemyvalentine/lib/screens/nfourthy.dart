@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class noOneScreen extends StatefulWidget {
-  const noOneScreen({Key? key}) : super(key: key);
+class nfourthyScreen extends StatefulWidget {
+  const nfourthyScreen({Key? key}) : super(key: key);
 
   @override
-  State<noOneScreen> createState() => _secondScreenState();
+  State<nfourthyScreen> createState() => _secondScreenState();
 }
 
-class _secondScreenState extends State<noOneScreen> {
+class _secondScreenState extends State<nfourthyScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -25,11 +25,11 @@ class _secondScreenState extends State<noOneScreen> {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Image.network(
-                  "https://i.giphy.com/R4lWQN2sQdZUA.webp",
+                  "https://i.giphy.com/GEVIk0UNK5TPO.webp",
                 ),
               ),
               Text(
-                "Belki bunu tekrar düşünmek istersin.. ?",
+                "İŞTE ŞİMDİ DELİRMEYE BAŞLIYORUM",
                 style: GoogleFonts.petitFormalScript(
                   fontSize: 18,
                   color: Colors.pink,
@@ -47,8 +47,8 @@ class _secondScreenState extends State<noOneScreen> {
                         backgroundColor: MaterialStateProperty.all<Color>(
                             Colors.pink.shade200)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("/ysecond"),
-                    child: Text("Neden olmasın..",
+                        Navigator.of(context).pushReplacementNamed("/nfive"),
+                    child: Text("Neler yapabildiğini göster bana hDLŞFKDFŞLG",
                         style: GoogleFonts.petitFormalScript(
                             color: Colors.black87)),
                   ),
@@ -59,8 +59,8 @@ class _secondScreenState extends State<noOneScreen> {
                         backgroundColor:
                             MaterialStateProperty.all<Color>(Colors.black)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("/nsecond"),
-                    child: Text("Pek sanmıyorum..",
+                        Navigator.of(context).pushReplacementNamed("/yfive"),
+                    child: Text("pekala bi şans",
                         style: GoogleFonts.cinzel(color: Colors.redAccent)),
                   ),
                 ],

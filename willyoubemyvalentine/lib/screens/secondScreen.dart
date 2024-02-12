@@ -21,15 +21,15 @@ class _secondScreenState extends State<secondScreen> {
             children: [
               Container(
                 decoration: BoxDecoration(
-                  color: Colors.pinkAccent,
+                  color: Colors.grey,
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Image.network(
-                  "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGtwbndjdnkybW5xYjk4NDZibW5laGo5bDJqZ3A0NGl4ZDl4NnV5bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/X3Eqvx0d9izEfTwSBg/giphy.gif",
+                  "https://i.giphy.com/PtD8lwwlddEDC.webp",
                 ),
               ),
               Text(
-                "ikinci....",
+                "Will you be my valentine ?",
                 style: GoogleFonts.petitFormalScript(
                   fontSize: 18,
                   color: Colors.pink,
@@ -43,13 +43,25 @@ class _secondScreenState extends State<secondScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   ElevatedButton(
-                    onPressed: () => Navigator.of(context).pushReplacementNamed("/yesone"),
-                    child: Text("Evet..", style: GoogleFonts.petitFormalScript( color:Colors.pink.shade100)),
+                    style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all<Color>(
+                            Colors.pink.shade200)),
+                    onPressed: () =>
+                        Navigator.of(context).pushReplacementNamed("/yesone"),
+                    child: Text("Evet..",
+                        style: GoogleFonts.petitFormalScript(
+                            color: Colors.black87)),
                   ),
-                  SizedBox(width: 8), // Araya boşluk eklemek için SizedBox kullandık
-                  ElevatedButton(style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.blue) ),
-                    onPressed: () => Navigator.of(context).pushReplacementNamed("/noone"),
-                    child: Text("Hayır..", style: GoogleFonts.cinzel( color:Colors.pink.shade100)),
+                  SizedBox(
+                      width: 8), // Araya boşluk eklemek için SizedBox kullandık
+                  ElevatedButton(
+                    style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all<Color>(Colors.black)),
+                    onPressed: () =>
+                        Navigator.of(context).pushReplacementNamed("/noone"),
+                    child: Text("Hayır..",
+                        style: GoogleFonts.cinzel(color: Colors.redAccent)),
                   ),
                 ],
               ),

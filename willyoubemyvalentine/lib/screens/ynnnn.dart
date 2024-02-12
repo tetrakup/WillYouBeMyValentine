@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class noOneScreen extends StatefulWidget {
-  const noOneScreen({Key? key}) : super(key: key);
+class ynnnnScreen extends StatefulWidget {
+  const ynnnnScreen({Key? key}) : super(key: key);
 
   @override
-  State<noOneScreen> createState() => _secondScreenState();
+  State<ynnnnScreen> createState() => _secondScreenState();
 }
 
-class _secondScreenState extends State<noOneScreen> {
+class _secondScreenState extends State<ynnnnScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -25,11 +25,11 @@ class _secondScreenState extends State<noOneScreen> {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Image.network(
-                  "https://i.giphy.com/R4lWQN2sQdZUA.webp",
+                  "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHFod3M5and1anNxdHhpY3cyNWc2bDN3bTZqMThjNWFwaWIxdmg3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KPse2Y0OPBbxe/giphy.gif",
                 ),
               ),
               Text(
-                "Belki bunu tekrar düşünmek istersin.. ?",
+                "Ben de seni seviyorum seni esek",
                 style: GoogleFonts.petitFormalScript(
                   fontSize: 18,
                   color: Colors.pink,
@@ -47,12 +47,12 @@ class _secondScreenState extends State<noOneScreen> {
                         backgroundColor: MaterialStateProperty.all<Color>(
                             Colors.pink.shade200)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("/ysecond"),
-                    child: Text("Neden olmasın..",
+                        Navigator.of(context).pushReplacementNamed(""),
+                    child: Text("\u{2764}", //Text("\u{2764}"),
                         style: GoogleFonts.petitFormalScript(
                             color: Colors.black87)),
                   ),
-                  SizedBox(
+                  /*SizedBox(
                       width: 8), // Araya boşluk eklemek için SizedBox kullandık
                   ElevatedButton(
                     style: ButtonStyle(
@@ -60,9 +60,9 @@ class _secondScreenState extends State<noOneScreen> {
                             MaterialStateProperty.all<Color>(Colors.black)),
                     onPressed: () =>
                         Navigator.of(context).pushReplacementNamed("/nsecond"),
-                    child: Text("Pek sanmıyorum..",
+                    child: Text("Seni ağlatmayı seviom dedim, seni demedim CeyCey..",
                         style: GoogleFonts.cinzel(color: Colors.redAccent)),
-                  ),
+                  ),*/
                 ],
               ),
             ],

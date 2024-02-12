@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class noOneScreen extends StatefulWidget {
-  const noOneScreen({Key? key}) : super(key: key);
+class yyScreen extends StatefulWidget {
+  const yyScreen({Key? key}) : super(key: key);
 
   @override
-  State<noOneScreen> createState() => _secondScreenState();
+  State<yyScreen> createState() => _secondScreenState();
 }
 
-class _secondScreenState extends State<noOneScreen> {
+class _secondScreenState extends State<yyScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -25,11 +25,11 @@ class _secondScreenState extends State<noOneScreen> {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Image.network(
-                  "https://i.giphy.com/R4lWQN2sQdZUA.webp",
+                  "https://media4.giphy.com/media/xUNda44zwtHDg3PyaQ/giphy.gif?cid=ecf05e478uk2em1qktog9sx1g99wjdoeaimhd8h6oxskkeci&ep=v1_gifs_related&rid=giphy.gif&ct=g",
                 ),
               ),
               Text(
-                "Belki bunu tekrar düşünmek istersin.. ?",
+                "Ağlak bir velet olsam da beni seviyo musun..",
                 style: GoogleFonts.petitFormalScript(
                   fontSize: 18,
                   color: Colors.pink,
@@ -47,8 +47,8 @@ class _secondScreenState extends State<noOneScreen> {
                         backgroundColor: MaterialStateProperty.all<Color>(
                             Colors.pink.shade200)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("/ysecond"),
-                    child: Text("Neden olmasın..",
+                        Navigator.of(context).pushReplacementNamed("/yyy"),
+                    child: Text("Seviyorum..",
                         style: GoogleFonts.petitFormalScript(
                             color: Colors.black87)),
                   ),
@@ -60,7 +60,7 @@ class _secondScreenState extends State<noOneScreen> {
                             MaterialStateProperty.all<Color>(Colors.black)),
                     onPressed: () =>
                         Navigator.of(context).pushReplacementNamed("/nsecond"),
-                    child: Text("Pek sanmıyorum..",
+                    child: Text("Seni ağlatmayı seviom dedim, seni demedim CeyCey..",
                         style: GoogleFonts.cinzel(color: Colors.redAccent)),
                   ),
                 ],

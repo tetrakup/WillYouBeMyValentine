@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class noOneScreen extends StatefulWidget {
-  const noOneScreen({Key? key}) : super(key: key);
+class ysecondScreen extends StatefulWidget {
+  const ysecondScreen({Key? key}) : super(key: key);
 
   @override
-  State<noOneScreen> createState() => _secondScreenState();
+  State<ysecondScreen> createState() => _secondScreenState();
 }
 
-class _secondScreenState extends State<noOneScreen> {
+class _secondScreenState extends State<ysecondScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -25,11 +25,11 @@ class _secondScreenState extends State<noOneScreen> {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Image.network(
-                  "https://i.giphy.com/R4lWQN2sQdZUA.webp",
+                  "https://c.tenor.com/8ustcfbXeAcAAAAC/tenor.gif",
                 ),
               ),
               Text(
-                "Belki bunu tekrar düşünmek istersin.. ?",
+                "Şaka Yaptığını Biliyorduummm",
                 style: GoogleFonts.petitFormalScript(
                   fontSize: 18,
                   color: Colors.pink,
@@ -47,8 +47,8 @@ class _secondScreenState extends State<noOneScreen> {
                         backgroundColor: MaterialStateProperty.all<Color>(
                             Colors.pink.shade200)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("/ysecond"),
-                    child: Text("Neden olmasın..",
+                        Navigator.of(context).pushReplacementNamed("/yy"),
+                    child: Text("Seni ağlatmayı seviyorum..",
                         style: GoogleFonts.petitFormalScript(
                             color: Colors.black87)),
                   ),
@@ -60,7 +60,7 @@ class _secondScreenState extends State<noOneScreen> {
                             MaterialStateProperty.all<Color>(Colors.black)),
                     onPressed: () =>
                         Navigator.of(context).pushReplacementNamed("/nsecond"),
-                    child: Text("Pek sanmıyorum..",
+                    child: Text("Kandırdım ;)",
                         style: GoogleFonts.cinzel(color: Colors.redAccent)),
                   ),
                 ],

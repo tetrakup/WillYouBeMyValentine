@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class noOneScreen extends StatefulWidget {
-  const noOneScreen({Key? key}) : super(key: key);
+class yyyScreen extends StatefulWidget {
+  const yyyScreen({Key? key}) : super(key: key);
 
   @override
-  State<noOneScreen> createState() => _secondScreenState();
+  State<yyyScreen> createState() => _secondScreenState();
 }
 
-class _secondScreenState extends State<noOneScreen> {
+class _secondScreenState extends State<yyyScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -25,11 +25,11 @@ class _secondScreenState extends State<noOneScreen> {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Image.network(
-                  "https://i.giphy.com/R4lWQN2sQdZUA.webp",
+                  "https://64.media.tumblr.com/823d81b6b0f484a7aefcc4921366c5fd/tumblr_inline_p8ds6yMg7l1t6w51g_500.gif",
                 ),
               ),
               Text(
-                "Belki bunu tekrar düşünmek istersin.. ?",
+                "BEN DE ÖYLE DÜSÜNMÜSTÜM İSO..",
                 style: GoogleFonts.petitFormalScript(
                   fontSize: 18,
                   color: Colors.pink,
@@ -47,12 +47,12 @@ class _secondScreenState extends State<noOneScreen> {
                         backgroundColor: MaterialStateProperty.all<Color>(
                             Colors.pink.shade200)),
                     onPressed: () =>
-                        Navigator.of(context).pushReplacementNamed("/ysecond"),
-                    child: Text("Neden olmasın..",
+                        Navigator.of(context).pushReplacementNamed("/yn"),
+                    child: Text("hheh..",
                         style: GoogleFonts.petitFormalScript(
                             color: Colors.black87)),
                   ),
-                  SizedBox(
+                  /*SizedBox(
                       width: 8), // Araya boşluk eklemek için SizedBox kullandık
                   ElevatedButton(
                     style: ButtonStyle(
@@ -60,9 +60,9 @@ class _secondScreenState extends State<noOneScreen> {
                             MaterialStateProperty.all<Color>(Colors.black)),
                     onPressed: () =>
                         Navigator.of(context).pushReplacementNamed("/nsecond"),
-                    child: Text("Pek sanmıyorum..",
+                    child: Text("Seni ağlatmayı seviom dedim, seni demedim CeyCey..",
                         style: GoogleFonts.cinzel(color: Colors.redAccent)),
-                  ),
+                  ),*/
                 ],
               ),
             ],
